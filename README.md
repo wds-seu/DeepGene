@@ -1,7 +1,7 @@
 # DeepGene: An Efficient Foundation Model for Genomics based on Pan-genome Graph Transformer
 We introduce DeepGene, a model leveraging Pan-genome and Minigraph representations to encompass the broad diversity of genetic language. DeepGene employs the rotary position embedding to improve the length extrapolation in various genetic analysis tasks. On the 28 tasks in Genome Understanding Evaluation, DeepGene reaches the top position in 9 tasks, second in 5, and achieves the overall best score. DeepGene outperforms other cutting-edge models for its compact model size and its superior efficiency in processing sequences of varying lengths.
 
-Preprint: https://www.biorxiv.org/content/10.1101/2024.04.24.590879v1
+Preprint available at bioRxiv.
 
 ## 1. Environment setup
 Please see ```PanGeneGraphTrans/requirements.txt```.
@@ -18,3 +18,5 @@ Download [pretrained model](https://drive.google.com/drive/folders/1gb2IqO3NdSMb
 
 ### 4.2 Fine-tune with pre-trained model
 Please see ```PanGeneGraphTrans/finetune.py```.
+
+Download [prom_5000](https://drive.google.com/drive/folders/1DLXtYGDVyxxBN3U5mMzxf-QMe1-Ik0dx?usp=drive_link) data and place it in the ```\data\LPD\promoter_prediction\prom_5000``` folder.
